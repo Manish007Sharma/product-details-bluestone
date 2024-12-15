@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 2px;
+}
+
+input {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.pb-5 {
+    padding-bottom: 3rem;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.layout-container {
+    max-width: 1600px;
+    padding: 0.5rem 1rem;
+    margin-inline: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* header css starts here  */
+.main-header {
+    position: sticky;
+    padding: 10px 20px;
+    background: #FFF;
+    z-index: 99;
+    top: 0px;
+    box-shadow: 0px 0px 2px 0px #c7c7c7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-flex-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.bs-logo img {
+    width: 175px;
+    height: auto;
+}
+
+.cart {
+    position: relative;
+    margin-right: 10px;
+    margin-top: 4px;
+
+    & svg {
+        width: 42px;
+        height: 42px;
+    }
+
+    & span {
+        position: absolute;
+        top: -4px;
+        right: -10px;
+        z-index: 1;
+        border: 2px solid black;
+        font-size: 20px;
+        border-radius: 6px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        height: 22px;
+        font-weight: 600;
+        background: #FFF;
+    }
+
+    &:hover {
+        color: rgb(44, 44, 215);
+
+        & span {
+            border-color: rgb(44, 44, 215);
+        }
+
+        & svg path {
+            stroke: rgb(44, 44, 215);
+        }
+    }
+}
+
+/* header css end  */
+/* section  title css stsrts here  */
+.section-title {
+    & h1 {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 75px;
+        margin-bottom: 35px;
+    }
+
+    & p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+/* product details css starts here  */
+.main-banner {
+    padding-top: 3rem;
+}
+
+.Product-details-section {
+    display: flex;
+    justify-content: space-between;
+
+    & .product-carousel,
+    .Product-details {
+        width: 50%;
+    }
+}
+
+.content-section {
+    margin-bottom: 2rem;
+
+    & h3 {
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    & p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+}
+
+.size-quantity-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.custom-select {
+    & label {
+        font-size: 16px;
+        font-weight: 500;
+        padding-right: 2px;
+    }
+
+    & select {
+        border-radius: 6px;
+        padding: 4px 5px;
+        border: 1px solid #000;
+    }
+}
+
+.submit-section {
+    padding: 2rem 0rem;
+
+    & button {
+        cursor: pointer;
+        background: blue;
+        color: #FFF;
+        padding: 0.5rem 1rem;
+        width: 100%;
+        border: 1px solid;
+        border-radius: 6px;
+        font-size: 20px;
+        font-weight: 500;
+
+        &:hover {
+            background: rgb(9, 9, 143);
+        }
+    }
+}
+
+.section-flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.delivery-Check {
+    margin-bottom: 2rem;
+
+    & h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    & input {
+        width: 100px;
+    }
+}
+
+.seller-details {
+    color: rgb(122, 122, 122);
+}
+
+/* product carousel section  */
+.carousel-selected {
+    padding-right: 2rem;
+
+    & img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+}
+
+.carousel-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.5rem 0rem;
+    align-items: center;
+    overflow-X: scroll;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    margin-right: 2rem;
+}
+
+.carousel-item {
+    cursor: pointer;
+
+    & img {
+        width: 100px;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    &:hover {
+        opacity: 0.75;
+    }
+}

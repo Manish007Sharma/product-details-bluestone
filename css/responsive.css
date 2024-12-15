@@ -1,0 +1,81 @@
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .layout-container {
+        padding: 0.5rem 4rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .layout-container {
+        padding: 0.5rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .layout-container {
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .layout-container {
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bs-logo img {
+        width: 150px;
+    }
+
+    .cart {
+        & svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        & span {
+            font-size: 16px;
+            height: 16px;
+            width: 16px;
+        }
+    }
+
+    .main-banner {
+        padding-top: 1.5rem;
+    }
+
+    .pb-5 {
+        padding-bottom: 1rem !important;
+    }
+
+    .section-title {
+        & h1 {
+            font-size: 36px;
+            line-height: 45px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .Product-details-section {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center !important;
+
+        & .product-carousel,
+        .Product-details {
+            width: 100%;
+        }
+    }
+
+    .carousel-selected {
+        padding-right: 0rem !important;
+    }
+
+    .carousel-area {
+        margin-right: 0rem !important;
+    }
+
+    .section-flex {
+        gap: 0rem !important;
+    }
+}
